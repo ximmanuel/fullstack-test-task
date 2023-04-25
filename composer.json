@@ -1,0 +1,23 @@
+{
+    "name": "emz/fullstack-test-tasks",
+    "description": "Fullstack Test Tasks",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [{
+        "name": "immanuel",
+        "email": "immanuel.mruk@8mylez.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "FullstackTestTasks\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "FullstackTestTasks\\FullstackTestTasks",
+        "label": {
+            "de-DE": "Theme Fullstack Test Tasks",
+            "en-GB": "Theme Fullstack Test Tasks"
+        }
+    }
+}
